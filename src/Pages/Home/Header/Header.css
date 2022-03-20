@@ -1,0 +1,15 @@
+ .headers-container{
+    font-family:var(--montserrat-font);
+    
+}
+.navbar-link-custom {
+    text-decoration: none;
+    margin: 0em 1.5em;
+    color: #606060;
+    font-weight: bold;
+    transition: all 200ms;
+   }
+   .header a {
+       font-size: 20px;
+       color: #6278df;
+   }
