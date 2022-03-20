@@ -26,7 +26,7 @@ const Footer = () => {
                        <input type="search" /> <FaSearchPlus style={{color: 'red', fontSize: '28px'}} />
                     </Col>
                     <Col lg={3} md={6} sm={12}>
-                        <h4 className="footer-heading">Get Social</h4>
+                        <h4>Get Social</h4>
                         <small><FaFacebook style={{ fontSize: '25px' }} /></small>
                         <small><FaInstagramSquare style={{ fontSize: '25px', marginLeft: '15px' }} /></small>
                         <small><FaTwitterSquare style={{ fontSize: '25px', marginLeft: '15px' }} /></small>

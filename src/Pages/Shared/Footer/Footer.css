@@ -21,13 +21,19 @@
     background: rgba(0, 0, 0, .5);
     z-index: -1;
 }
+.footer-heading{
+    text-align: left;
+}
 
 .footer-textp{
     font-size: 16px;
     line-height: 1.4em;
     text-align: left;
 }
-
+.f-c h4{
+    text-align: left;
+}
 .f-c p{
+  text-align: left;
    line-height: 1.0;
 }
