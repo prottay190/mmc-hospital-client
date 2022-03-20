@@ -19,9 +19,6 @@ const Banner = () => {
                     <Carousel.Caption className='header-c'>
                     <Header></Header> 
                     </Carousel.Caption>
-                    <Carousel.Caption>
-                        wellcome our hospital
-                    </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item className='banner'>
                     <img
