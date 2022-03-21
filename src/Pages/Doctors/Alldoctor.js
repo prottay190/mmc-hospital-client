@@ -4,7 +4,7 @@ import React from 'react';
 const Alldoctor = ({ doctor }) => {
     const { _id, img, name, Expert, details, qualification, Price } = doctor;
     return (
-            <div>
+            <div className='p-5'>
                 <img src={img} />
                 <div>
                     <h5>Name: {name}</h5>
