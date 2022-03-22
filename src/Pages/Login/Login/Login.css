@@ -1,0 +1,38 @@
+.login-con{
+   background-image: url('../../../images/background/young-female-surgeon-with-medical-team-back-before-surgery.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   margin-top: 70px;
+   padding: 20px 0;
+   background-image: repeating-radial-gradient(0, 0, .5, 1);
+   color: #fff;
+   position: relative;
+   z-index: 9;
+}
+.login-con::after{
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+
+   background: rgba(0, 0, 0, .5);
+   z-index: -1;
+}
+.login-form{
+    padding: 60px;
+    text-align: left;
+ }
+ .login-text{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #F5B041;
+ }
+.link-text{
+   
+   font-size: 20px;
+   font-weight: 400;
+}

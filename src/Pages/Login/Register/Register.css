@@ -1,0 +1,58 @@
+.register-form{
+    padding: 60px;
+    text-align: left;
+ }
+ .register-text{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: #F5B041;
+ }
+ .register-container{
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 5px  #aaaaaa;
+ }
+ .lonin-btn{
+   background-color: var(--yellow-color);
+   border: none;
+   color: #fff;
+   border-radius: 10px;
+   padding: 10px 100px;
+   margin-top: 20px;
+
+ }
+
+ .wrapper
+{
+	padding-bottom: 50px;
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 30px;
+	height: 1px;
+}
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 25%;
+	right: 25%;
+	width: 50%;
+	height: 1px;
+	background: rgb(175, 54, 175);
+}
+
+.g-singin-btn{
+   background-color: var(--yellow-color);
+   border: none;
+   font-weight: 600;
+   margin-left: 80px;
+   color: #fff;
+   padding: 10px 100px;
+   border-radius: 15px;
+   
+}
