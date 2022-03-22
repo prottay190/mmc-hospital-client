@@ -1,0 +1,6 @@
+.all-dc{
+    font-family:var(--montserrat-font);
+    box-shadow: 5px 10px #888888;
+    box-sizing: border-box;
+    border-bottom: 1px solid goldenrod;
+}

@@ -13,7 +13,7 @@ const Doctor = ({doctor}) => {
                 <Card.Text> <span className='c-text'>Specialist: {Expert}</span></Card.Text>
                 <Card.Text>{qualification}</Card.Text>
                 <Card.Text> <span className='c-text'>Price: ${Price}</span></Card.Text>
-                <Link to={`/detail/${_id}`}> <button className="btn btn-primary">Show Details</button> </Link> <br />
+                <Link to={`/doctors/${_id}`}> <button className="btn btn-primary">Show Details</button> </Link> <br />
             </Card.Body>
         </Card>
     </Col>

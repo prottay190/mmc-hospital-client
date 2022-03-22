@@ -10,14 +10,14 @@ const Doctors = () => {
     const [doctors, setDoctors] = useState([])
 
     useEffect(() => {
-        fetch('http://localhost:5000/doctors')
+        fetch('https://arcane-scrubland-61314.herokuapp.com/doctors')
             .then(res => res.json())
             .then(data => setDoctors(data.doctors))
     }, [])
     return (
         <div>
             <div className='Services-container'>
-                <h2 style={{ padding: '20px' }}>Doctors</h2>
+                <h2 style={{ padding: '20px' }}>All Doctors</h2>
                 <Container className='my-5'>
                     <Row lg={3} md={2} sm={1} xs={1} className="g-4">
                         {doctors.map(doctor => <Doctor

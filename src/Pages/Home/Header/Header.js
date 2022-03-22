@@ -14,7 +14,7 @@ const Header = () => {
             <Navbar.Collapse className="justify-content-end">
             <Link to='/home' className="navbar-link-custom">Home</Link>
             <Link to='/dashboard' className="navbar-link-custom">Dashboard</Link>
-            <Link to='' className="navbar-link-custom">Home</Link>
+            <Link to='' className="navbar-link-custom">SignIn</Link>
         
             <Navbar.Text>
               

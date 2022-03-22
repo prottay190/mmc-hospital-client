@@ -1,0 +1,6 @@
+.dashboard-menu a{
+    text-decoration: none;
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-family:var(--montserrat-font);
+}
